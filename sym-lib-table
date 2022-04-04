@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "65xx")(type "Legacy")(uri "${KIPRJMOD}/lib/6502-kicad-library/65xx.lib")(options "")(descr ""))
+  (lib (name "Memory_EEPROM")(type "Legacy")(uri "${KIPRJMOD}/lib/Memory_EEPROM/Memory_EEPROM.lib")(options "")(descr ""))
+)
