@@ -422,6 +422,14 @@
     [
       "1cf5bdd1-35d3-4238-800b-96633c0c913b",
       "Power"
+    ],
+    [
+      "287b8d7b-7977-45e3-a8a2-fb0a63aeaa82",
+      "Peripheral Handler"
+    ],
+    [
+      "88f3e21e-c703-4a36-ad17-2c4503b54055",
+      "Address Decoder"
     ]
   ],
   "text_variables": {}
