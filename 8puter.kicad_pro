@@ -430,6 +430,14 @@
     [
       "88f3e21e-c703-4a36-ad17-2c4503b54055",
       "Address Decoder"
+    ],
+    [
+      "fe48e103-08f5-43b9-95cc-c9697506de99",
+      "Bus Control"
+    ],
+    [
+      "afee8228-6c57-4fb7-9c62-64e9ad6d349f",
+      "Video"
     ]
   ],
   "text_variables": {}

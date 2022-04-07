@@ -7,4 +7,9 @@
   (lib_symbols
   )
 
+
+  (hierarchical_label "BUS_EN" (shape output) (at 149.86 100.33 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 72f5e010-4835-4344-b761-78f2b6a212d3)
+  )
 )
