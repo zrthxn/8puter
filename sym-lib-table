@@ -2,4 +2,5 @@
   (lib (name "65xx")(type "Legacy")(uri "${KIPRJMOD}/lib/6502-kicad-library/65xx.lib")(options "")(descr ""))
   (lib (name "Memory_EEPROM")(type "Legacy")(uri "${KIPRJMOD}/lib/Memory_EEPROM/Memory_EEPROM.lib")(options "")(descr ""))
   (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/lib/Custom.kicad_sym")(options "")(descr ""))
+  (lib (name "machxo2")(type "Legacy")(uri "${KIPRJMOD}/lib/TinyFPGA-A-Series/board/machxo2.lib")(options "")(descr ""))
 )
