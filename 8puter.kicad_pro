@@ -428,20 +428,16 @@
       "Peripheral Handler"
     ],
     [
-      "fe48e103-08f5-43b9-95cc-c9697506de99",
-      "Bus Control"
-    ],
-    [
       "afee8228-6c57-4fb7-9c62-64e9ad6d349f",
       "Video"
     ],
     [
-      "59d6507d-8c01-4b37-beee-b798f6eef3f6",
-      "Clock"
+      "9ab5d2f0-617b-4234-937f-d2d694cb7421",
+      "Serial Controller"
     ],
     [
-      "6c314181-176e-47cd-acc1-5c64a693824b",
-      "ERAM"
+      "59d6507d-8c01-4b37-beee-b798f6eef3f6",
+      "Clock"
     ]
   ],
   "text_variables": {}
