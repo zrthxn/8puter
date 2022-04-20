@@ -4427,7 +4427,7 @@
   (gr_text "8puter Homebrew Computer" (at 186.098 53.395) (layer "B.SilkS") (tstamp 99fb7397-c827-4ac7-920c-ef279ce0a7f4)
     (effects (font (size 1.25 1.25) (thickness 0.25)) (justify mirror))
   )
-  (gr_text "github.com/zrthxn/8puter\n(c) MIT Licence" (at 201.398 125.645) (layer "B.SilkS") (tstamp efb548b9-c6f1-4e6e-a6f4-8116e80f37a0)
+  (gr_text "github.com/zrthxn/8puter\n(C) GPL-3.0 License" (at 201.398 125.645) (layer "B.SilkS") (tstamp efb548b9-c6f1-4e6e-a6f4-8116e80f37a0)
     (effects (font (size 1.25 1.25) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "A8" (at 196.398 106.07) (layer "F.SilkS") (tstamp 0083d671-621e-41de-8c8d-2f6e7ee17f00)
