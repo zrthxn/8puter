@@ -2,9 +2,9 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "7fdffff_80000001",
-    "zone_display_mode": 1
+    "visible_layers": "7fdffef_80000001",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "8puter.kicad_prl",
