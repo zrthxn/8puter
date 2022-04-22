@@ -1003,6 +1003,16 @@
     (uuid e8fb4f67-b4ca-47ed-95a2-2aefb2346b30)
   )
 
+  (text "Video will be generated using a \nmicrocontroller which is fast enough to \ngenerate the VGA timing signals.\n\nCPU will send a single byte to the MCU which can\nbe be a char code or index of glyph, and the MCU\njust generates the video signal.\n\nThis setup is limited in generating graphics but\nit avoids having to keep a large framebuffer."
+    (at 31.75 52.705 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c15485a9-9c89-4e03-85b4-da3bfcaf28d4)
+  )
+  (text "Video Controller" (at 31.75 25.4 0)
+    (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
+    (uuid f5c8e697-540f-46e9-90e6-049d89034bb4)
+  )
+
   (label "HSYNC" (at 109.22 92.075 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0a996229-774b-4b17-8554-17ef19474375)
