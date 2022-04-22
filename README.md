@@ -11,7 +11,7 @@ Here is a picture of a 3D model of the completed PCB.
 
 Once I verify and get this manufactured, there will be a real image.
 
-### Resources
+## Resources
 
 Some great resources I found for this project, including those from people who have done this sort of thing before.
 
