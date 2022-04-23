@@ -1,11 +1,11 @@
 "Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"C15,C12,C8,C9,C21,C16,C20,C22,C7,C10,C23";"C_0805_2012Metric";11;"100nF";;;
-2;"R30,R22,R28,R16,R13,R11,R19,R2,R18,R6,R15,R27,R23,R24,R17,R9,R10,R25,R26,R20,R14,R8,R21,R5,R7,R12";"R_0805_2012Metric";26;"10K";;;
-3;"R3";"R_0805_2012Metric";1;"4.7K";;;
-4;"RESET_SW1,STEP_SW1";"SW_PUSH_6mm_H13mm";2;"PUSHBTN";;;
-5;"U3";"SOT-23-5";1;"SN74LVC1G14DBV";;;
+1;"SERC1";"PLCC-28";1;"W65C51NxPL";;;
+2;"C15,C12,C8,C9,C21,C16,C20,C22,C7,C10,C23";"C_0805_2012Metric";11;"100nF";;;
+3;"R30,R22,R28,R16,R13,R11,R19,R2,R18,R6,R15,R27,R23,R24,R17,R9,R10,R25,R26,R20,R14,R8,R21,R5,R7,R12";"R_0805_2012Metric";26;"10K";;;
+4;"R3";"R_0805_2012Metric";1;"4.7K";;;
+5;"RESET_SW1,STEP_SW1";"SW_PUSH_6mm_H13mm";2;"PUSHBTN";;;
 6;"ROM1";"DIP-28_W15.24mm_LongPads";1;"AT28C256";;;
-7;"U6";"SOT-143";1;"MAX811MEUS-T";;;
+7;"U6";"SOT-143";1;"MAX811TEUS+T";;;
 8;"CPU1";"DIP-40_W25.4mm_LongPads";1;"W65C02SxP";;;
 9;"C2,C19,C17,C6,C18";"C_0805_2012Metric";5;"1uF";;;
 10;"SERIAL1";"PinHeader_2x05_P2.54mm_Vertical";1;"Conn_02x05_Odd_Even";;;
@@ -34,6 +34,5 @@
 33;"U2";"TSSOP-14_4.4x5mm_P0.65mm";1;"74AHC74";;;
 34;"R31";"R_0805_2012Metric";1;"47K";;;
 35;"USB_P1";"USB_A_TE_292303-7_Horizontal";1;"USB_A";;;
-36;"SERC1";"LQFP-32_7x7mm_P0.8mm";1;"W65C51NxQ";;;
-37;"Y1";"Crystal_HC49-4H_Vertical";1;"1.8432MHz";;;
-38;"X1";"Oscillator_DIP-8";1;"ECS-2200BX-100";;;
+36;"Y1";"Crystal_HC49-4H_Vertical";1;"1.8432MHz";;;
+37;"X1";"Oscillator_DIP-8";1;"ECS-2200BX-100";;;
