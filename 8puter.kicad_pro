@@ -420,12 +420,12 @@
       "Memory Unit"
     ],
     [
-      "1cf5bdd1-35d3-4238-800b-96633c0c913b",
-      "Power"
-    ],
-    [
       "287b8d7b-7977-45e3-a8a2-fb0a63aeaa82",
       "Peripheral Handler"
+    ],
+    [
+      "8c24dcfd-eb2d-4d97-9da8-040e7b195117",
+      "Storage"
     ],
     [
       "afee8228-6c57-4fb7-9c62-64e9ad6d349f",
@@ -434,6 +434,10 @@
     [
       "59d6507d-8c01-4b37-beee-b798f6eef3f6",
       "Clock"
+    ],
+    [
+      "1cf5bdd1-35d3-4238-800b-96633c0c913b",
+      "Power"
     ]
   ],
   "text_variables": {}
