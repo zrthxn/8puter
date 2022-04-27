@@ -9,7 +9,7 @@ Please feel free to leave reviews/sanity checks from people who have done this s
 
 Here is a picture of a 3D model of the completed PCB.
 
-<img title="" src="pcb/8puter.png" alt="" width="570">
+<img title="" src="pcb/8puter.png" alt="" width="600" data-align="center">
 
 Once I verify and get this manufactured, there will be a real image.
 

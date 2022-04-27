@@ -758,7 +758,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a0ad0487-5155-4c6b-b1ed-f7fa90441772)
     (property "Reference" "R29" (id 0) (at 52.07 49.53 90))
-    (property "Value" "1.5K" (id 1) (at 52.07 52.07 90))
+    (property "Value" "" (id 1) (at 52.07 52.07 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 52.07 57.023 90)
       (effects (font (size 1.27 1.27)) hide)
     )

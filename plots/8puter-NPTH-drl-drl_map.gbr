@@ -1,6 +1,6 @@
 %FSLAX45Y45*%
 G04 Gerber Fmt 4.5, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 6.0.4-1.fc35) date 2022-04-27 17:33:19*
+G04 Created by KiCad (PCBNEW 6.0.4-1.fc35) date 2022-04-27 20:56:35*
 %MOMM*%
 %LPD*%
 G01*
@@ -19,8 +19,8 @@ G75*
 G03*
 X-578Y9810580I-2J-199998D01*
 G01*
-X-578Y9810000D02*
-X-578Y209000D01*
+X-578Y9810580D02*
+X-578Y209580D01*
 X3Y209423D02*
 G75*
 G03*
