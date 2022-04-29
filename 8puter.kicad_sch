@@ -3514,10 +3514,10 @@
     (property "Reference" "DEBUG1" (id 0) (at 217.17 146.6849 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_02x16_Odd_Even" (id 1) (at 217.17 149.2249 90)
+    (property "Value" "" (id 1) (at 217.17 149.2249 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x16_P2.00mm_Vertical" (id 2) (at 237.49 149.225 0)
+    (property "Footprint" "" (id 2) (at 237.49 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 237.49 149.225 0)
@@ -3601,10 +3601,10 @@
     (property "Reference" "CPU1" (id 0) (at 49.0094 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 49.0094 77.47 0)
+    (property "Value" "W65C02SxP" (id 1) (at 49.0094 77.47 0)
       (effects (font (size 1.27 1.27) bold italic) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 46.99 64.135 0)
+    (property "Footprint" "Package_DIP:DIP-40_W15.24mm_LongPads" (id 2) (at 46.99 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.westerndesigncenter.com/wdc/documentation/w65c02s.pdf" (id 3) (at 46.99 66.675 0)
@@ -4938,22 +4938,22 @@
       (reference "CPU1") (unit 1) (value "W65C02SxP") (footprint "Package_DIP:DIP-40_W15.24mm_LongPads")
     )
     (path "/59d6507d-8c01-4b37-beee-b798f6eef3f6/07a43ecd-1101-44b6-a223-07a702d03c42"
-      (reference "CS_SEL1") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical")
+      (reference "CS_SEL1") (unit 1) (value "Conn_02x03_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical")
     )
     (path "/1cf5bdd1-35d3-4238-800b-96633c0c913b/7b92496e-8832-462c-9134-c9933855ed1d"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/30a6b211-0dc3-4f51-bcb7-52fe848ee97e"
-      (reference "DEBUG1") (unit 1) (value "Conn_02x16_Odd_Even") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x16_P2.00mm_Vertical")
+      (reference "DEBUG1") (unit 1) (value "Conn_02x16_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical")
     )
     (path "/a54297d9-3f68-4e1b-8e71-284b03256929"
       (reference "J1") (unit 1) (value "PWR-DC") (footprint "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal")
     )
     (path "/287b8d7b-7977-45e3-a8a2-fb0a63aeaa82/29f5a9a2-94a6-4cdc-a8e7-84648a7a8222"
-      (reference "PERIPHERAL1") (unit 1) (value "Conn_02x08_Odd_Even") (footprint "Connector_PinHeader_2.00mm:PinHeader_2x08_P2.00mm_Vertical")
+      (reference "PERP1") (unit 1) (value "Conn_02x08_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical")
     )
     (path "/afee8228-6c57-4fb7-9c62-64e9ad6d349f/971f36f6-d845-4710-b9e9-e890521ffeb6"
-      (reference "PROG1") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical")
+      (reference "PROG1") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/287b8d7b-7977-45e3-a8a2-fb0a63aeaa82/d9899845-bf60-4c8f-bb0b-a0ea4cb0fe86"
       (reference "PRP1") (unit 1) (value "W65C22SxQ") (footprint "Package_QFP:PQFP-44_10x10mm_P0.8mm")
@@ -5079,7 +5079,7 @@
       (reference "ROM1") (unit 1) (value "AT28HC256E-90SU") (footprint "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm")
     )
     (path "/6fb476cc-0d35-4ef8-90a2-1a1fd6ffea47/5d9b78bb-748c-4a68-a8c0-abb1a6517e13"
-      (reference "ROM_WRITE1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical")
+      (reference "ROM_WRITE1") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/8c24dcfd-eb2d-4d97-9da8-040e7b195117/9f06bc3d-ce21-4b96-bdb4-845d24d9c3ea"
       (reference "SDCARD1") (unit 1) (value "Micro_SD_Card") (footprint "Connector_Card:microSD_HC_Molex_104031-0811")
@@ -5088,7 +5088,7 @@
       (reference "SERC1") (unit 1) (value "W65C22SxQ") (footprint "Package_QFP:PQFP-44_10x10mm_P0.8mm")
     )
     (path "/8c24dcfd-eb2d-4d97-9da8-040e7b195117/9d21f321-3993-42a6-aedd-e9bd5deba8c3"
-      (reference "SPI1") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.00mm:PinHeader_1x06_P2.00mm_Vertical")
+      (reference "SPI1") (unit 1) (value "Conn_01x06") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/59d6507d-8c01-4b37-beee-b798f6eef3f6/9759b995-89b1-4406-bbbe-2b1fe1a42713"
       (reference "STEP_SW1") (unit 1) (value "PUSHBTN") (footprint "Button_Switch_THT:SW_PUSH_6mm_H13mm")

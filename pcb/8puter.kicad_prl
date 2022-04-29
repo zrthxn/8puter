@@ -10,7 +10,7 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6899999976158142
+      "zones": 0.6499999761581421
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -37,6 +37,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
