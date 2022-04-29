@@ -883,7 +883,7 @@
     (property "Reference" "R30" (id 0) (at 57.785 85.725 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "" (id 1) (at 57.785 88.265 0)
+    (property "Value" "10K" (id 1) (at 57.785 88.265 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 65.278 86.995 90)

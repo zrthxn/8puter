@@ -691,7 +691,7 @@
     (property "Reference" "C11" (id 0) (at 169.545 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 169.545 83.185 0)
+    (property "Value" "100nF" (id 1) (at 169.545 83.185 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 167.005 81.915 0)
