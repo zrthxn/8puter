@@ -1,7 +1,7 @@
 # 8puter
 
 This is a Homebrew 8-bit computer project, using mostly simple modern parts.
-Based on the legendary MOS6502 processor, we are using the modern CMOS version made by WDC. Basically an exercise in computer architechture design. I plan to get this manufactured into a PCB and assemble myself into a working computer. 
+Based on the legendary MOS6502 processor, we are using the modern CMOS version made by WDC. Basically an exercise in computer architechture. I plan to get this manufactured into a PCB and assemble myself into a working computer. 
 
 Please feel free to leave reviews/sanity checks from people who have done this sort of thing before, or know something about this, in the [issues](/issues).  
 
@@ -11,7 +11,9 @@ Here is a picture of a 3D model of the completed PCB.
 
 <img title="" src="pcb/8puter.png" alt="" width="640" data-align="center">
 
-Once I verify and get this manufactured, there will be a real image.
+#### [Schematic](./8puter.pdf)
+
+#### [Bill of Materials](./8puter.csv)
 
 ## My Goals
 
