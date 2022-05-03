@@ -9,13 +9,13 @@ Please feel free to leave reviews/sanity checks from people who have done this s
 
 Here is a picture of a 3D model of the completed PCB.
 <p align="center">
-  <img title="" src="pcb/8puter.png" alt="" width="640" align="center">
+  <img title="" src="plots/8puter.png" alt="" width="640" align="center">
 </p>
 
 <p align="center" style="text-align: center; font-size: larger; font-weight: 600;">
 // 
-<a href="./8puter.pdf">Schematic</a> / 
-<a href="./8puter.csv">Bill of Materials</a> 
+<a href="plots/8puter.pdf">Schematic</a> / 
+<a href="plots/8puter.csv">Bill of Materials</a> 
 //
 </p>
 
