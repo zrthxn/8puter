@@ -8,6 +8,9 @@
     (title "8puter")
     (rev "1.0")
     (company "zrthxn")
+    (comment 1 "https://github.com/zrthxn/8puter")
+    (comment 2 "Open Source Hardware Project")
+    (comment 3 "Homebrew 8-Bit Computer")
   )
 
   (lib_symbols
@@ -1053,7 +1056,7 @@
     (uuid 6c9cfc56-54d3-499e-b6ea-c63aa4d6d2ce)
   )
   (text "Programming can be done with\nPICkit3 programmer made by Microchip.\nThey provide an IDE called MPLAB X\nwhich take a .hex file and flashes it into memory."
-    (at 187.96 118.745 0)
+    (at 187.96 117.094 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c0371e74-2821-40bd-8b1d-d9b7bc1c1691)
   )

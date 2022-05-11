@@ -8,6 +8,9 @@
     (title "8puter")
     (rev "1.0")
     (company "zrthxn")
+    (comment 1 "https://github.com/zrthxn/8puter")
+    (comment 2 "Open Source Hardware Project")
+    (comment 3 "Homebrew 8-Bit Computer")
   )
 
   (lib_symbols
