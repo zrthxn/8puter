@@ -1,0 +1,6 @@
+repo: 71d6504cb824e454a47d5500fee9ca2c9e3f45f1
+node: bf3ddd5a9874ff70370b2b8f37c5597a7768d4d6
+branch: default
+latesttag: snapshot-20171120
+latesttagdistance: 2
+changessincelatesttag: 2

@@ -1,0 +1,15 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/alisamar/Desktop/VGAPIC32-bf3ddd5a9874'
+mipsel-linux-gnu-gcc -c -O2 -Wall -fno-unit-at-a-time -fno-zero-initialized-in-bss -ffreestanding -fno-hosted -fno-builtin -march=mips32 vga.S -o vga.o
+mipsel-linux-gnu-gcc -c -O2 -Wall -fno-unit-at-a-time -fno-zero-initialized-in-bss -ffreestanding -fno-hosted -fno-builtin -march=mips32 display.c -o display.o
+mipsel-linux-gnu-gcc -c -O2 -Wall -fno-unit-at-a-time -fno-zero-initialized-in-bss -ffreestanding -fno-hosted -fno-builtin -march=mips32 screendata.S -o screendata.o
+mipsel-linux-gnu-gcc -c -O2 -Wall -fno-unit-at-a-time -fno-zero-initialized-in-bss -ffreestanding -fno-hosted -fno-builtin -march=mips32 fontdata.S -o fontdata.o
+mipsel-linux-gnu-gcc -c -O2 -Wall -fno-unit-at-a-time -fno-zero-initialized-in-bss -ffreestanding -fno-hosted -fno-builtin -march=mips32 chardata.S -o chardata.o
+mipsel-linux-gnu-ld -nostdlib -EL -T vga.ld vga.o display.o screendata.o fontdata.o chardata.o -o vga.elf
+mipsel-linux-gnu-objdump -D vga.elf > vga.dump
+mipsel-linux-gnu-objdump -h vga.elf > vga.map
+mipsel-linux-gnu-nm -n vga.elf > System.map
+mipsel-linux-gnu-objcopy -O ihex vga.elf vga.hex
+mipsel-linux-gnu-objcopy -O srec vga.elf vga.srec
+make: Leaving directory '/home/alisamar/Desktop/VGAPIC32-bf3ddd5a9874'
+ 

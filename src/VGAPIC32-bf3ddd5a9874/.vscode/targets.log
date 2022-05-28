@@ -1,0 +1,424 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'vga.o', needed by 'vga.elf'.  Stop.
+
+# GNU Make 4.3
+# Built for x86_64-redhat-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Tue May 10 02:47:19 2022
+
+# Variables
+
+# makefile (from 'Makefile', line 47)
+OBJ = vga.o display.o screendata.o fontdata.o chardata.o
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# makefile (from 'Makefile', line 46)
+SRC = vga.S display.c screendata.S fontdata.S chardata.S
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ecff14f0-5056-4c4f-a1ed-c364fa601c4b.sock
+# environment
+LC_NUMERIC = en_IN.UTF-8
+# environment
+VSCODE_CWD = /home/alisamar
+# environment
+WINDOWPATH = 2
+# environment
+GDM_LANG = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+GTK3_MODULES = xapp-gtk3-module
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 39)
+SCRIPT = $(TARGET:.elf=.ld)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/alisamar/Desktop/VGAPIC32-bf3ddd5a9874
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+HOSTNAME = zxfedora
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+MAIL = /var/spool/mail/alisamar
+# environment
+STEAM_FRAME_FORCE_CLOSE = 1
+# environment
+XDG_DATA_DIRS = /home/alisamar/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+# environment
+OLDPWD = /home/alisamar
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/alisamar/.config/Code/CachedData/e18005f0f1b33c29e81d732535d8c0e47cafb0b5
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/alisamar/Desktop/VGAPIC32-bf3ddd5a9874
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from 'Makefile', line 41)
+HEX = $(TARGET:.elf=.hex)
+# environment
+export = 
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+LESSOPEN = ||/usr/bin/lesspipe.sh %s
+# makefile (from 'Makefile', line 42)
+SREC = $(TARGET:.elf=.srec)
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+HISTSIZE = 50000
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = gnome-xorg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/alisamar/.oh-my-zsh
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 9815
+# environment
+SDL_VIDEO_MINIMIZE_ON_FOCUS_LOSS = 0
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from 'Makefile', line 37)
+DUMP = $(TARGET:.elf=.dump)
+# environment
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/2538,unix/unix:/tmp/.ICE-unix/2538
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from 'Makefile', line 38)
+MAP = $(TARGET:.elf=.map)
+# default
+MAKE_HOST := x86_64-redhat-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# makefile (from 'Makefile', line 24)
+OBJDUMP = $(ARCH)-objdump
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/alisamar/.cargo/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/alisamar/bin:/home/alisamar/.cabal/bin:/home/alisamar/.ghcup/bin:/home/alisamar/.local/share/nvim/plugged/vim-iced/bin:/home/alisamar/bin:/home/alisamar/.cabal/bin:/home/alisamar/.ghcup/bin
+# environment
+MOZ_GMP_PATH = /usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = en_IN.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_IN.UTF-8
+# environment
+INVOCATION_ID = 9918cf83734c4d9c8dc17418de5ade7d
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = alisamar
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = GNOME
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = gnome-xorg
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = alisamar
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+DOT = /home/alisamar/Desktop/Alisamar/dotfiles
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2562
+# makefile (from 'Makefile', line 19)
+ARCH = mipsel-linux-gnu
+# environment
+HISTCONTROL = ignoredups
+# environment
+EDITOR = /usr/bin/nano
+# environment
+DISPLAY = :0
+# environment
+USER = alisamar
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'Makefile', line 34)
+LDFLAGS = -nostdlib -EL
+# environment
+MANAGERPID = 2337
+# environment
+which_declare = typeset -f
+# environment
+LC_MEASUREMENT = en_IN.UTF-8
+# environment
+DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 9815
+# environment
+SSH_AGENT_PID = 2472
+# environment
+PAGER = less
+# environment
+_ = /usr/bin/make
+# environment
+LC_PAPER = en_IN.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 30)
+CFLAGS = -O2 -Wall -fno-unit-at-a-time -fno-zero-initialized-in-bss -ffreestanding -fno-hosted -fno-builtin -march=mips32
+# environment
+JOURNAL_STREAM = 8:38442
+# environment
+XDG_SESSION_CLASS = user
+# environment
+ANDROID_SDK = /home/alisamar/Android/Sdk
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/alisamar
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-e9d59379-1.66.0-main.sock
+# makefile (from 'Makefile', line 22)
+NM = $(ARCH)-nm
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 21)
+LD = $(ARCH)-ld
+# makefile (from 'Makefile', line 36)
+TARGET = vga.elf
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'Makefile', line 20)
+CC = $(ARCH)-gcc
+# makefile (from 'Makefile', line 23)
+OBJCOPY = $(ARCH)-objcopy
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+GDMSESSION = gnome-xorg
+# variable set hash-table stats:
+# Load=132/1024=13%, Rehash=0, Collisions=21/174=12%
+
+ 
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 41, inode 12393125): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+vga.o:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.c.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 72):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+distclean: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 57):
+	echo "Nothing else to clean."
+
+# Not a target:
+display.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+screendata.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2018-10-20 21:31:15
+#  File has been updated.
+#  Successfully updated.
+
+vga.elf: vga.o display.o screendata.o fontdata.o chardata.o
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 66):
+	$(LD) $(LDFLAGS) -T $(SCRIPT) $(OBJ) -o $@
+	$(OBJDUMP) -D $(TARGET) > $(DUMP)
+	$(OBJDUMP) -h $(TARGET) > $(MAP)
+	$(NM) -n $(TARGET) > System.map
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 54):
+	rm -f $(OBJ) $(TARGET) $(HEX) $(SREC) $(DUMP) *.map
+
+# Not a target:
+chardata.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: vga.hex vga.srec
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+vga.srec: vga.elf
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 63):
+	$(OBJCOPY) -O srec $(TARGET) $(SREC)
+
+.S.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 75):
+	$(CC) -c $(CFLAGS) $< -o $@
+
+# Not a target:
+fontdata.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean distclean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+vga.hex: vga.elf
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 60):
+	$(OBJCOPY) -O ihex $(TARGET) $(HEX)
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=0/46=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 36 / storage = 312 B / avg = 8 B
+# current buf: size = 8162 B / used = 312 B / count = 36 / avg = 8 B
+
+# strcache performance: lookups = 58 / hit rate = 37%
+# hash-table stats:
+# Load=36/8192=0%, Rehash=0, Collisions=0/58=0%
+# Finished Make data base on Tue May 10 02:47:19 2022
+
+ 
