@@ -1,4 +1,4 @@
 8puter-backups/
 fp-info-cache
 **/*.kicad_sch-bak
-
+_autosave-*.kicad_pcb
