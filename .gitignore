@@ -2,3 +2,5 @@
 fp-info-cache
 **/*.kicad_sch-bak
 _autosave-*.kicad_pcb
+.DS_Store
+
