@@ -47,7 +47,7 @@ Then I found Robu.in and their manufacturing service. I'm not sure if they've be
 The board files are ready to send to a manufacturer of your choice as they are. You can find the gerbers in a ZIP and just fire them off. 
 I recommend Robu.in if you're in India. Otherwise I'd recommend PCBWay.com
 
-![board](https://github.com/zrthxn/8puter/assets/35369637/e3e64d4a-8d97-42fa-91b7-1bf61d4a6681)
+<img src="https://github.com/zrthxn/8puter/assets/35369637/e3e64d4a-8d97-42fa-91b7-1bf61d4a6681" width="60%"/>
 
 See the [Releases](https://github.com/zrthxn/8puter/releases) for updates.
 
